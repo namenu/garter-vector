@@ -1000,6 +1000,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@rescript/std@^9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@rescript/std/-/std-9.1.0.tgz#bee9bad2f77af7c4bb4c5eb64bf53908c777c99d"
+  integrity sha512-LZIUtiPSHB23WNSlmZ74n9hNbgrt8vPYkAzFYVj0NSQdJoG80C+xgCtG8zTjcIER3gdtZhDVaFhl8H1sS9KpKQ==
+
 "@stylelint/postcss-css-in-js@^0.37.2":
   version "0.37.2"
   resolved "https://registry.yarnpkg.com/@stylelint/postcss-css-in-js/-/postcss-css-in-js-0.37.2.tgz#7e5a84ad181f4234a2480803422a47b8749af3d2"
@@ -1535,16 +1540,6 @@ browserslist@^4.12.0:
     electron-to-chromium "^1.3.723"
     escalade "^3.1.1"
     node-releases "^1.1.71"
-
-bs-platform@^9.0.0:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-9.0.2.tgz#a6eac70eb8924a322556dacaccbfbc9b2a0d3a37"
-  integrity sha512-Ye9JqJ4Oa7mcjjoOVRYI8Uc2Cf8N7jQLWDcdUplY7996d/YErSR7WitmV7XnSwr4EvdrbwjEsg1NxNjUQv3ChA==
-
-bsb-js@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/bsb-js/-/bsb-js-1.1.7.tgz#12cc91e974f5896b3a2aa8358419d24e56f552c3"
-  integrity sha512-FSR7d5Kb6KfVI5sLz9bEeD9pbA9F4Zbkk1xa6R9CJtyd+dJ7mIkxoXqv7cw7HWcuee+VpIhmjYzrplnFd/5Qgg==
 
 buffer-equal@0.0.1:
   version "0.0.1"
@@ -5468,10 +5463,17 @@ require-from-string@^2.0.2:
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-rescript-vector@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/rescript-vector/-/rescript-vector-0.1.1.tgz#ce425d1d6301d94be9be1ec3c3d1e3b95ca0df30"
-  integrity sha512-FjkBIGEFSDvjb98/pOwAnlD/nNB8wfkbwPdbI25SFvY2goqEFT+i4ve88bEEucM9X9cJfJQMVzyh+oZfcJvDwA==
+rescript-vector@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/rescript-vector/-/rescript-vector-0.2.0.tgz#a5d4abfa686eab0ac757f46981a04ac1c710ac2b"
+  integrity sha512-aY5Ag+jLbM6H1f2Q/86RD3IyebU7ix+A9xipNiT99i+AWNeYnfq0K5YQNUi515r/Xx5p4uF/FH/DvvSEeg+I9Q==
+  dependencies:
+    "@rescript/std" "^9.1.0"
+
+rescript@^9.1.2:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-9.1.2.tgz#a81f8a735f1a7006233bfc72eb081ca7182a0d79"
+  integrity sha512-4wHvTDv3nyYnAPJHcg1RGG8z7u3HDiBf6RN3P/dITDv859Qo35aKOzJWQtfBzbAs0EKNafLqei3TnUqiAv6BwQ==
 
 resolve-from@^3.0.0:
   version "3.0.0"
